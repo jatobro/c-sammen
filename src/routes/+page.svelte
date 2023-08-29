@@ -1,5 +1,6 @@
 <script>
 	import Counter from './Counter.svelte';
+	import Navbar from './Navbar.svelte';
 	import welcome from '$lib/images/svelte-welcome.webp';
 	import welcome_fallback from '$lib/images/svelte-welcome.png';
 </script>
@@ -10,6 +11,9 @@
 </svelte:head>
 
 <section>
+
+	<Navbar />
+
 	<h1 class="text-2xl font-bold">
 		<span class="welcome">
 			<picture>
