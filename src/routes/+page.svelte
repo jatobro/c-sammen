@@ -10,7 +10,7 @@
 </svelte:head>
 
 <section>
-	<h1>
+	<h1 class="text-2xl font-bold">
 		<span class="welcome">
 			<picture>
 				<source srcset={welcome} type="image/webp" />
